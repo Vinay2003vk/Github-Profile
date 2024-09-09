@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css box model</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+
+    <style>
+        body{
+            background-color: cyan;
+        }
+h1{
+    text-align: center;
+}
+h1 > span{
+    color: red;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.flex-container{
+    display: flex;
+    height: 240px;
+    width: 75%;
+    margin: 0px auto;
+}
+.flex-container>div{    
+width: 100%;
+margin: 0px 10px;
+
+}
+img{
+    width: 100%;
+    height: 90%;
+    border-radius:7%;
+}
+.img1{
+    width: 100px;
+    position: relative;
+    top: -40px;
+    left: 51%;
+
+}
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <h1>Masai in <span>News</span></h1>
+    <img src="https://www.masaischool.com/images/new-homepage/yellow-vector.svg"alt="" class="img1">
+
+    <div class="flex-container">
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/PR_Article_Prateek_Shukla_Gen_AI_92324e2d6b.jpeg" alt="">
+            <h3>CXOToday has engaged in an exclusibe interview with Mr. Prateek Shukla, Co</h3>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Ankush_Sachdeva_Sharechat_4e44dbbe6b.jpg" alt="">
+            <h3>CXOToday has engaged in an exclusibe interview with Mr. Prateek Shukla, Co</h3>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/PR_Thingy_2_f2c52e6fcf.webp" alt="">
+            <h3>CXOToday has engaged in an exclusibe interview with Mr. Prateek Shukla, Co</h3>
+
+
+        </div>
+    </div>
+
+</body>
+</html>
